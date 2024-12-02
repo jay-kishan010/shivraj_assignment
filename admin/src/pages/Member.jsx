@@ -63,8 +63,7 @@ const Member = () => {
           component="label"
           variant="contained"
           startIcon={<CloudUploadIcon />}
-          sx={{ alignSelf: 'flex-start' }} // Align upload button to the start
-        >
+          sx={{ alignSelf: 'flex-start' }} >
           Upload Photo
           <VisuallyHiddenInput
             type="file"

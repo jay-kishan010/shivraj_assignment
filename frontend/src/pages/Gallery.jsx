@@ -43,7 +43,7 @@ const Gallery = () => {
                 <CardMedia
                   component="img"
                   height="200"
-                  image={`http://localhost:9000/${image.imagePath}`}
+                  image={`https://shivraj-assignment-back.onrender.com/${image.imagePath}`}
                   alt={image.caption}
                 />
                 <CardContent>
