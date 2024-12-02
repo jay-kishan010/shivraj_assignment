@@ -34,7 +34,7 @@ const Add_Image = () => {
     formData.append('image', image);
 
     try {
-      const response = await axios.post('http://localhost:9000/api/upload/img', formData, {
+      const response = await axios.post('https://shivraj-assignment-back.onrender.com/api/upload/img', formData, {
 
         headers: {
           'Authorization': `Bearer ${token}`,

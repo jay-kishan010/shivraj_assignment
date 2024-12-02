@@ -19,7 +19,7 @@ const navigate=useNavigate();
     e.preventDefault();
 
     try {
-      const { data } = await axios.post('http://localhost:9000/api/auth/login', { email, password });
+      const { data } = await axios.post('https://shivraj-assignment-back.onrender.com/api/auth/login', { email, password });
       navigate('/add-images');
       localStorage.setItem('token', data.token);
       window.location.reload();
