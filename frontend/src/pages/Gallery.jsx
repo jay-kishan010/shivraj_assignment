@@ -17,7 +17,7 @@ const Gallery = () => {
         useEffect(() => {
           const fetchGallery = async () => {
             try {
-              const res = await axios.get('http://localhost:9000/api/upload/gallery');
+              const res = await axios.get('https://shivraj-assignment-back.onrender.com/api/upload/gallery');
               setGallery(res.data.images);
               console.log(res.data)
               console.log("object")

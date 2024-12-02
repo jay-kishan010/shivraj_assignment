@@ -21,7 +21,7 @@ const AboutUs = () => {
           justifyContent: "center",
           alignItems: "center",
           backgroundColor: "#495057",
-          backgroundImage: "url('https://img.freepik.com/premium-photo/crumpled-used-white-wrapping-paper-texture-background_108146-1924.jpg')", // Add your image path
+          backgroundImage: "url('https://img.freepik.com/premium-photo/crumpled-used-white-wrapping-paper-texture-background_108146-1924.jpg')", 
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
